@@ -6,7 +6,8 @@
  *
  * Return: Always 0 (Success)
  *
- main - A Programming is like building a multilingual puzzle*/
+* main - A Programming is like building a multilingual puzzle
+*/
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
