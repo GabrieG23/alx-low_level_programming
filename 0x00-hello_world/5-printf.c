@@ -1,7 +1,10 @@
 #include <stdio.h>
 /**
- * main: program that print function
- * description: using function print
+ * main - Entry point
+ *
+ * Description: 'Using print function'
+ *
+ * Return: Always 0
  */
 int main(void) 
 {
