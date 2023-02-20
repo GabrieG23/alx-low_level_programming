@@ -1,32 +1,33 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - three digit
  *
- * Return: Always 0
+ * Return: 0
  */
 
 int main(void)
 {
-	int i, j, k, l;
-
-	i = 0;
-	while (i < 980)
-	{
-		j = i / 100;
-		k = (i / 10) % 10;
-		l = i % 100;
-		if (j < k && k < l)
-		{
-			putchar(l + '0');
-			putchar(k + '0');
-			putchar(j + '0');
-			if (i < 789)
-			{
-				putchar(' ');
-			}
-		}
-		i++;
-	}
-	putchar('\n');
-	return (0);
+        int i, j, f;
+        for (i = 0; i < 7; i++)
+                for (i = 0; i < 8; i++)
+                {
+                        for (j = i + 1; j < 8; j++)
+                                for (j = i + 1; j < 9; j++)
+                                {
+                                        for (f = j + 1; f < 9; f++)
+                                                for (f = j + 1; f < 10; f++)
+                                                {
+                                                        putchar(i + '0');
+                                                        putchar(j + '0');
+                                                        putchar(f + '0');
+                                                        if (i < 7)
+                                                        {
+                                                                putchar(',');
+                                                                        putchar(' ');
+                                                        }
+                                                }
+                                }
+                }
+        putchar('\n');
+        return (0);
 }
