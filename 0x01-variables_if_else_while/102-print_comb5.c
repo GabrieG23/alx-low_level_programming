@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - combination of three numbets
+ * main - Entry point
  *
  * Return: Always 0
  */
@@ -10,7 +10,7 @@ int main(void)
 	int i, j, k, l;
 
 	i = 0;
-	while (i < 1000)
+	while (i < 980)
 	{
 		j = i / 100;
 		k = (i / 10) % 10;
@@ -22,7 +22,6 @@ int main(void)
 			putchar(j + '0');
 			if (i < 789)
 			{
-				putchar(' , ');
 				putchar(' ');
 			}
 		}
