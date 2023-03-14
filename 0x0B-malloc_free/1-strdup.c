@@ -3,14 +3,14 @@
 #include "main.h"
 
 /**
- * _strup - duplicate to new memory space location
+ * _strdup - duplicate to new memory space location
  *
  * @str: char
  *
  * Return: 0
  */
 
-char *_strup(char *str)
+char *_strdup(char *str)
 {
 	char *aaa;
 	int i, r = 0;

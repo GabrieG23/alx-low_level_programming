@@ -7,7 +7,7 @@
  *
  * @av: double pointer array
  *
- * Return: 0
+ * Return: str
  */
 
 char *argstostr(int ac, char **av)
